@@ -28,20 +28,20 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1:** "What are your reactions to the Android app development platform so far? Compare and contrast Android's approach to layouts and user interfaces in past platforms you've used."
 
-**Answer:** Android user interface is comparatively easy as it only require drag and drop, it also has xml file which you can use too. Coding part and interface are separate so makes the code readable. Most of the functionality of android can be accessed using Intent and in 2-3 lines.
+**Answer:** "Android user interface is comparatively easy as it only require drag and drop, it also has xml file which you can use too. Coding part and interface are separate so makes the code readable. Most of the functionality of android can be accessed using Intent and in 2-3 lines."
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
-**Answer:**  In android, An adapter is a bridge between UI component and data source that helps us to fill data in UI component. It holds the data and send the data to adapter view then view can takes the data from the adapter view and shows the data on different views like listview, gridview, spinner etc. ArrayAdapter is more simple and commonly used Adapter in android.
+**Answer:**  "In android, An adapter is a bridge between UI component and data source that helps us to fill data in UI component. It holds the data and send the data to adapter view then view can takes the data from the adapter view and shows the data on different views like listview, gridview, spinner etc. ArrayAdapter is more simple and commonly used Adapter in android.
 Whenever you have a list of single type of items which is backed by an array, you can use ArrayAdapter. For instance, list of phone contacts, countries or names or any integers.
 ConvertView is used to reuse old view.
-So if a list is of 15 items, but window can show only 5 items, then at first convertView would be null, and we need to create new views for these five items, but when you scroll down, you have two options, either create 6-10 views, or re-use old views and load new data into these views. Adapter and convertView enables you to do the later method.
+So if a list is of 15 items, but window can show only 5 items, then at first convertView would be null, and we need to create new views for these five items, but when you scroll down, you have two options, either create 6-10 views, or re-use old views and load new data into these views. Adapter and convertView enables you to do the later method."
 
 ## Notes
 
 Describe any challenges encountered while building the app.
 
-**Answer:** Updating the FileUtils was difficult, but later I got idea to use set method on items and update the adapter and then use ‘writeItems’ method to update FileUtils.
+**Answer:** "Updating the FileUtils was difficult, but later I got idea to use set method on items and update the adapter and then use ‘writeItems’ method to update FileUtils."
 
 ## License
 
