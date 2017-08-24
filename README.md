@@ -18,7 +18,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://youtu.be/ppH1k8IDrGU' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[Video Walkthrough](https://youtu.be/ppH1k8IDrGU)
 
 GIF created with [LiceCap](http://i.imgur.com/jDHoc5d.gifv).
 
